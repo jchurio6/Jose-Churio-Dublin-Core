@@ -1,0 +1,127 @@
+html,body {    
+    padding: 0;
+    margin: 0;
+    background-color: #B3B3B3;
+    
+}
+/* Cabecera*/
+header {        
+    display:block;    
+    padding:10px 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+/* Contenido*/
+section {
+	font: 16px Angsana New, arial, helvetica;
+    width: 96%;
+    background: #ccc;
+    float: left;
+    overflow: auto;
+    padding-bottom: 1%;    
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 1%;
+}
+section h1
+{
+	font-size: 300%;
+	text-align: center;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+section h2
+{
+	font-size: 150%;
+	margin-left: 5%;
+	font-style: italic;
+  text-align: center;
+	
+}
+
+section h3
+{
+  font-size: 125%;
+  margin-left: 5%;   
+}
+
+section h6
+{
+	font-size:70%;
+	text-align: center;
+}
+
+section p
+{
+	font-size: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
+	line-height: 25px;
+}
+ 
+section li
+{
+	font-size: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+section img
+{
+	display:block;	
+	margin: auto;
+}
+
+.twitter
+{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+footer {
+    
+    position: relative;
+    margin-top: -50px;
+    height: 40px; 
+    padding:5px 0px;
+    clear: both;
+    background: #333;
+    text-align: center;
+    color: #fff;
+}
